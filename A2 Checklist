@@ -11,12 +11,12 @@ Project Plan
 Program Requirements
 
 1. Program must backup both files and directories
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+2. The program must run both manually and as a scheduled task
+3. The program must accept a CLI indicating the job
+4. Backup job details must be defined in backupcgf.py
+5. The program must gracefully handle incorrect or missing input
+6. The program must log all jobs to backup.log
+7. The program must send an email if the backup fails
+8. Program must comply with Coding Standards provided
+9. Source files and directories must be copied to the destination directory
+10. Explanatory comments are used throughout the code
