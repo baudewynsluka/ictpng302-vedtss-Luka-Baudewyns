@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-jobs = {"job1" : "/home/ec2-user/environment/ictpng302-vedtss-Luka-Baudewyns/test/file1",
-        "job2" : "/home/ec2-user/environment/ictpng302-vedtss-Luka-Baudewyns/test/dir1"}
+jobs = {"job1" : "/home/ec2-user/environment/ictprg302-vedtss-Luka-Baudewyns/test/file1",
+        "job2" : "/home/ec2-user/environment/ictprg302-vedtss-Luka-Baudewyns/test/dir1",
+        "job3" : "/home/ec2-user/environment/ictprg302-vedtss-Luka-Baudewyns/test/dir2"}
         
-backupDir = "/home/ec2-user/environment/ictpng302-vedtss-Luka-Baudewyns/backups"
+backupDir = "/home/ec2-user/environment/ictprg302-vedtss-Luka-Baudewyns/backups"
 
-backupLog = "/home/ec2-user/environment/ictpng302-vedtss-Luka-Baudewyns/backup.log"
+backupLog = "/home/ec2-user/environment/ictprg302-vedtss-Luka-Baudewyns/backup.log"
 
 smtp = {"sender": "baudewynsluka@gmail.com",
         "recipient": "baudewynsluka@gmail.com",

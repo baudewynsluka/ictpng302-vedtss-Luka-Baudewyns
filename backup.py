@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 
+# Program: backup.py
+# Author: Luka Baudewyns
+# Email: baudewynsluka@gmail.com
+# Version: 1
+# Copyright: Luka Baudewyns 2023
+# This program is a python program which can help daily fully backup your work from the python program
+
 import sys 
 import os 
 import pathlib
@@ -71,7 +78,7 @@ def main():
                 # check backup location is a valid directory
                 destination = backupDir
                 if not os.path.exists(destination):
-                    print(f"ERROR: destination {destination} does not exist")
+                    errorHandler(f"ERROR: destination {destination} does not exist", dateTimeStamp)
                 else:
                     srcPath = pathlib.PurePath(source)
                     dstLoc = destination + "/" + srcPath.name + "-" + dateTimeStamp
